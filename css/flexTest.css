@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+
+.cabecera {
+    font-size: 20px;
+    border: 0.3rem solid black;
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 8vh;
+}
+.box {
+    /* flex-basis: 10rem; Tamaño flexible */
+    flex-grow: 1;
+}
+.cabecera-logo {
+    display: flex;
+    align-items: center;
+    min-width: 15rem;
+    border: 0.3rem solid red;
+}
+.cabecera-contenedor-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 0.3rem solid green;
+}
+.cabecera-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.cabecera-menu li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* margin: 0px 1rem; */
+}
+.cabecera-menu a {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+}
+.cabecera-menu a:hover {
+    background-color: brown;
+}
+.main-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    border: 0.3rem solid blue;
+    justify-content: space-around;
+    /* flex-basis: 20vw; */
+    min-width: 30rem;
+    padding: 5px;
+}
+
+.aside-element {
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3rem solid bisque;
+    height: 20vh;
+    /* height: 15rem; */
+}
+.footer-container {
+    display: flex;
+    height: 12vh;
+}
+.footer-informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3rem solid aqua;
+}
+.footer-SocialMedia {
+    display: flex;
+    justify-content: center;
+    border: 0.3rem solid blueviolet;
+    align-items: center;
+}
+.principal {
+    border: 0.3rem solid violet;
+    display: flex;
+    align-items: center;
+    flex-basis: 80vw;
+    /* padding: 10px; */
+    /* flex-grow: 1; */
+}
+.principal p {
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+}

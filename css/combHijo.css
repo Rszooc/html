@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Hijos | child | HJijo directo*/
+div > p {
+    color: red;
+}
+
+/* Descendiente */
+
+div p {
+    color: purple;
+}

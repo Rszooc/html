@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    /* Horientación Vertical */
+    /* aling items center; -> Todo al centro */
+    /* aling.items: flex-end -> Mueve los elementos abajo de la altura */
+    /* align-items: stretch;Posición vertical llena toda la altura */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; Centra horizontal */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* Mismo espacio en todos lados */
+    /* justify-content: space-evenly;  */
+    /* align-items: baseline; Toma el tamaño del contenido */
+    /* height: 50vh; */
+    flex-wrap: wrap;
+
+}
+.box {
+    /* width: 10rem; */
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+
+}
+.box1 {
+    background-color: blue;
+    /* Flex-grow toma el tamaño necesario para rellenar el espacio vacío que quede en html */
+    /* flex-grow: 1; */
+    /* order: 1; */
+}
+.box2 {
+    background-color: red;
+    /* order: 3; */
+    /* flex-grow: 1; */
+}
+.box3 {
+    background-color: pink;
+}
+.box4 {
+    background-color: mediumslateblue;
+}
+.box5 {
+    background-color: orange;
+    /* order: 4; */
+}
+.box6 {
+    background-color: violet;
+    /* order: 2; */
+}
+/* Order los que no tienen orden se van a la izquierda */

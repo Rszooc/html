@@ -1,0 +1,48 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background: url(/img/background.png);
+    background-size: cover;
+    /* text-align: center; */
+}
+.nombreDesafio {
+    padding-top: 10px;
+    text-align: center;
+}
+.contenedor {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 40px 0px 40px 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+}
+.listaSuper {
+    font-size: 30px;
+}
+ul {
+    /* padding-left: 2rem; */
+    list-style: none;
+    font-size: 25px;
+}
+ul li {
+    padding-left: 1.5rem;
+    background-image: url(/img/canasta.svg);
+    background-position: 0 0;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+}
+ol {
+    /* padding-left: 1rem; */
+    list-style: none;
+    font-size: 20px;
+}
+ol li{
+    padding-left: 1.5rem;
+    background-image: url(/img/icons8-chebrón-hacia-la-derecha-24.png);
+    background-position: 0 0;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+}

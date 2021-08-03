@@ -1,0 +1,33 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+.main-nav_item {
+    display: inline-block;
+}
+
+.main-nav_item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/* pseudoclases | estados */
+.main-nav_item a:hover {
+    color: blue;
+}
+.main-nav_item a:active {
+    color: red;
+}
+/* pseudoelementos | define una parte */
+.main-nav_item a::after {
+    content: ' |';
+}
+
+/* Colocar dos cajas al 50 y margen 
+.clase {
+    width: calc(50%-20px);
+}
+*/

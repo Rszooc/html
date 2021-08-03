@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hermano general  ~ aplica a todos los que sean hermanos*/
+
+h2 ~ p {
+    color: red;
+}
